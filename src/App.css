@@ -1,11 +1,54 @@
 .App {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   justify-content: center;
   align-items: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  width: 80%;
   pointer-events: none;
+}
+
+.App .underConstruction {
+  margin-top: 1.2em;
+  width: 20%;
+  pointer-events: none;
+}
+
+.spinner {
+  margin-top: 1.6em;
+  position: relative;
+  display: block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #aaa;
+  animation: spinner 1.2s linear infinite;
+}
+
+.spinner:before,
+.spinner:after {
+  content: '';
+  position: absolute;
+  top: -9px;
+  left: -9px;
+  display: block;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #031D38;
+}
+
+.spinner:after {
+  border-top-color: transparent;
+  border-bottom-color: #031D38;
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
 }
