@@ -21,7 +21,7 @@ function Slide5Container(props: Slide5ContainerProps) {
       <div className="relative flex-1 flex flex-row mt-12 pl-20">
         { props.imageDirection === 'left' && (
           <div className="flex-1 flex justify-center justify-items-center px-40">
-            <img className="object-contain w-full" src={props.imageSrc} alt="earth" />
+            <img className="object-contain" src={props.imageSrc} alt="" />
           </div>
         )}
 
@@ -40,7 +40,7 @@ function Slide5Container(props: Slide5ContainerProps) {
 
         { props.imageDirection === 'right' && (
           <div className="flex-1 flex justify-center justify-items-center px-40">
-            <img className="object-contain w-full" src={props.imageSrc} alt="" />
+            <img className="object-contain" src={props.imageSrc} alt="" />
           </div>
         )}
       </div>
@@ -50,7 +50,7 @@ function Slide5Container(props: Slide5ContainerProps) {
 
 export default function Slide5() {
   return (
-    <div className={classNames(slideClass, 'flex flex-row py-24 snap-x snap-mandatory overflow-x-scroll')}
+    <div className={classNames(slideClass, 'flex flex-row my-24 snap-x snap-mandatory overflow-y-none overflow-x-scroll')}
          style={{ ...slideStyle, justifyContent: 'start' }}>
 
       <Slide5Container
