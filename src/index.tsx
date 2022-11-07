@@ -7,11 +7,15 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
+import emailJs from '@emailjs/browser'
+
+
+emailJs.init('jZYd-qYpYKvp6xOjD')  // connected with namu account on emailjs
 
 const router = createBrowserRouter([{
   path: "/",
   element: <App />,
-}]);
+}])
 
 // @ts-ignore
 const root = ReactDOM.createRoot(document.getElementById('root'))
