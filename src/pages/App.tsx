@@ -10,7 +10,7 @@ import SlideContactUs from "./slides/SlideContactUs"
 function App() {
   return (
     <div className="app relative text-main-white">
-      <div className="fixed w-full">
+      <div className="fixed w-full z-10">
         <Header />
       </div>
 
