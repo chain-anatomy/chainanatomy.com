@@ -20,8 +20,8 @@ export default function Slide3() {
       </div>
 
       <div className="flex-1 flex flex-col justify-center text-center text-main-green">
-        <div className="border-main-green border-l pl-8" style={{ fontSize: '7rem', fontWeight: '900', lineHeight: '10rem' }}>The Problem</div>
-        <div className="border-main-green border-l pl-8" style={{ fontSize: '7rem', fontWeight: '900', lineHeight: '10rem' }}>SOLVERS</div>
+        <div className="border-main-green border-l pl-8" style={{ fontSize: '6rem', fontWeight: '900', lineHeight: '10rem' }}>The Problem</div>
+        <div className="border-main-green border-l pl-8" style={{ fontSize: '6rem', fontWeight: '900', lineHeight: '10rem' }}>SOLVERS</div>
       </div>
 
     </div>

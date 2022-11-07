@@ -8,10 +8,10 @@ export default function Slide4() {
     <div className={classNames(slideClass, 'flex flex-col')} style={slideStyle}>
 
       <div className="flex flex-col text-center">
-        <div className="text-main-green text-8xl font-bold">
+        <div className="text-main-green text-6xl font-bold">
           Fully Customized Services
         </div>
-        <div className="text-main-green text-8xl font-bold mt-4">
+        <div className="text-main-green text-6xl font-bold mt-4">
           For Building Web3.0 Product
         </div>
       </div>
