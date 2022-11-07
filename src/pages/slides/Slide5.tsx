@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import classNames from "classnames"
 import { slideClass, slideStyle } from "./SlideConfig"
 import earthFrame from './earth-frame.png'
 import infrastructure from './infrastructure.png'
 import web3 from './web3.png'
 import liveOps from './liveops.png'
+import ChevronLeft from "../../components/chevron/ChevronLeft"
+import ChevronRight from "../../components/chevron/ChevronRight"
 
 
 type Slide5ContainerProps = {
@@ -27,7 +29,7 @@ function Slide5Container(props: Slide5ContainerProps) {
     <div id="services" className="relative snap-center shrink-0 flex flex-col w-full overflow-hidden px-40">
       <h1 className="text-center text-main-green">{props.title}</h1>
 
-      <div className="relative flex flex-row justify-evenly mt-12 mb-32">
+      <div className="relative flex flex-row justify-around mt-12 mb-32">
         { props.imageDirection === 'left' && <ServiceImage />}
 
         <div className="flex flex-col justify-center">
@@ -51,9 +53,10 @@ function Slide5Container(props: Slide5ContainerProps) {
 }
 
 export default function Slide5() {
+  const slideParentRef = useRef(null)
   const [slidePos, setSlidePos] = useState(0)  // 0, 1, 2, 3
 
-  const handlerScroll = e => {
+  const handleScroll = e => {
     const slidesTotalWidth = e.target.offsetWidth
     const scrollPosX = e.target.scrollLeft
     const calibratePosX = slidesTotalWidth / 4
@@ -61,10 +64,27 @@ export default function Slide5() {
     setSlidePos(Math.floor((scrollPosX + calibratePosX) / slidesTotalWidth))
   }
 
+  const handleChevronLeftClick = () => {
+    // @ts-ignore
+    slideParentRef.current.scrollLeft = slideParentRef.current.scrollLeft - slideParentRef.current.offsetWidth
+  }
+
+  const handleChevronRightClick = () => {
+    // @ts-ignore
+    slideParentRef.current.scrollLeft = slideParentRef.current.scrollLeft + slideParentRef.current.offsetWidth
+  }
+
   return (
     <div className={classNames(slideClass, 'relative flex flex-row my-24')} style={slideStyle}>
 
-      <div className="flex flex-row snap-x snap-mandatory overflow-y-none overflow-x-scroll" onScroll={handlerScroll}>
+      <div onClick={handleChevronLeftClick} className={classNames("absolute top-1/2 left-20 -translate-y-1/2 duration-300 transition-opacity cursor-pointer text-main-gray hover:text-main-green", {
+        'opacity-0 invisible': slidePos === 0,
+        'opacity-100': slidePos !== 0,
+      })}>
+        <ChevronLeft className="w-24 h-24 text-8xl" />
+      </div>
+
+      <div ref={slideParentRef} className="flex flex-row snap-x snap-mandatory overflow-y-none overflow-x-scroll scroll-smooth" onScroll={handleScroll}>
         <Slide5Container
           title="Strategy / Operation"
           imageDirection="right"
@@ -172,6 +192,13 @@ export default function Slide5() {
             ],
           }]}
         />
+      </div>
+
+      <div onClick={handleChevronRightClick} className={classNames("absolute top-1/2 right-20 -translate-y-1/2 duration-300 transition-opacity cursor-pointer text-main-gray hover:text-main-green", {
+        'opacity-0 invisible': slidePos === 3,
+        'opacity-100': slidePos !== 3,
+      })}>
+        <ChevronRight className="w-24 h-24 text-8xl" />
       </div>
 
       <div className="absolute left-1/2 bottom-8 -translate-x-1/2">
