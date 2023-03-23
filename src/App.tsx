@@ -7,13 +7,13 @@ import { sectionAtom } from "./recoil/section";
 import useScrollTop from "hooks/useScrollTop";
 
 import Heaader from "./components/header";
-import Section1 from "./components/section1";
-import Section2 from "./components/section2";
-import Section3 from "components/section3";
-import Section4 from "components/section4";
-import Section5 from "components/section5";
-import Section6 from "components/section6";
-import Section7 from "components/section7";
+import Section1 from "./components/sections/section1";
+import Section2 from "./components/sections/section2";
+import CooperateSection from "components/sections/cooperate";
+import Section4 from "components/sections/section4";
+import Section5 from "components/sections/section5";
+import Section6 from "components/sections/solver";
+import Section7 from "components/sections/section7";
 import Footer from "components/footer";
 
 function App() {
@@ -66,7 +66,7 @@ function App() {
       <Heaader navList={navList} />
       <Section1 ref={section1Ref} handleClickTouchBtn={handleClickTouchBtn} />
       <Section2 ref={section2Ref} />
-      <Section3 />
+      {/*<CooperateSection />*/}
       <Section4 ref={section4Ref} />
       <Section5 />
       <Section6 ref={section6Ref} />

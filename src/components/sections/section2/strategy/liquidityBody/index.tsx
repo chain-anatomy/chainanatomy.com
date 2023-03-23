@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 
 import * as S from "./style";
 
-import Exp from "components/section2/menu/exp";
-import MenuDesc from "components/section2/menu/menuDesc";
-import MenuTit from "components/section2/menu/menuTit";
-import { TabBar } from "components/section2/tabBar";
+import Exp from "components/sections/section2/menu/exp";
+import MenuDesc from "components/sections/section2/menu/menuDesc";
+import MenuTit from "components/sections/section2/menu/menuTit";
+import { TabBar } from "components/sections/section2/tabBar";
 
 import PoolBalancer from "assets/images/section2/pool-balancer.png";
 import ArbitrageStrategy from "assets/images/section2/arbitrage-strategy.png";

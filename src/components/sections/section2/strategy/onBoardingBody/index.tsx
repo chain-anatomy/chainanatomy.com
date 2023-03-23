@@ -4,9 +4,9 @@ import * as S from "./style";
 
 import { media } from "utils";
 
-import MenuDesc from "components/section2/menu/menuDesc";
-import MenuTit from "components/section2/menu/menuTit";
-import { TabBar } from "components/section2/tabBar";
+import MenuDesc from "components/sections/section2/menu/menuDesc";
+import MenuTit from "components/sections/section2/menu/menuTit";
+import { TabBar } from "components/sections/section2/tabBar";
 import MediaBr from "components/common/mobileBr";
 
 import Strategy1 from "assets/images/section2/strategy1.png";

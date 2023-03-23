@@ -3,7 +3,7 @@ import { Collapse } from "@mui/material";
 
 import { COLORS, MEDIA } from "config/styles";
 
-import Exp from "components/section2/menu/exp";
+import Exp from "components/sections/section2/menu/exp";
 
 export const CustomCollapse = styled(Collapse)``;
 

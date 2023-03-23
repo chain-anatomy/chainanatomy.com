@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 
 import * as S from "./style";
 
-import MenuDesc from "components/section2/menu/menuDesc";
-import MenuTit from "components/section2/menu/menuTit";
-import { TabBar } from "components/section2/tabBar";
+import MenuDesc from "components/sections/section2/menu/menuDesc";
+import MenuTit from "components/sections/section2/menu/menuTit";
+import { TabBar } from "components/sections/section2/tabBar";
 
 import Dashboard1 from "assets/images/section2/dashboard1.png";
 import Dashboard2 from "assets/images/section2/dashboard2.png";

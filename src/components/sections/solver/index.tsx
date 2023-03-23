@@ -15,8 +15,8 @@ const memberInfo = [
       "Gangwon Science High School",
       "Korea University. Mechanical Engineering",
       "Former) ABC QUANT(Shenzen, China) Founding Member",
-      "MMX, Web3.0 Senior director",
-      "MONOSIG Investment Mange dept. Executive director",
+      "Former) MMX, Web3.0 Senior director",
+      "Former) MONOSIG Investment Mange dept. Executive director",
     ],
     works: [
       "On-chain, Off-chain algorithm",
@@ -31,7 +31,7 @@ const memberInfo = [
       "Gangwon Science High School",
       "KAIST. M.S. Management engineering(Finance)",
       "Former) Kyobo Life Investment Manage dept",
-      "MONOSIG Quant 1 Team",
+      "Former) MONOSIG Quant 1 Team",
     ],
     works: [
       "On-chain, Off-chain algorithm",

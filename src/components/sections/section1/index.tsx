@@ -2,8 +2,8 @@ import React, { forwardRef, useEffect } from "react";
 
 import * as S from "./style";
 
-import { swupTransitions } from "../../cursor/swup";
-import { utils } from "../../cursor/utils";
+import { swupTransitions } from "../../../cursor/swup";
+import { utils } from "../../../cursor/utils";
 
 import useScrollTop from "hooks/useScrollTop";
 
