@@ -1,4 +1,3 @@
 # Components
-* domain provider
-* github (create-react-app)
-* netlify
+* Provide on netlify
+  * admin@chainanatomy.com
