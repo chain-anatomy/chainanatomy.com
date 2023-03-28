@@ -6,9 +6,17 @@ import AnimationTit from "components/common/animateTit";
 import SectionTit from "components/common/sectionTit";
 import { AnimationTitProps } from "components/common/sectionTit/style";
 
+import { media } from "utils";
+
+import BgImg from "assets/images/section1/bg.png";
+
 export const Section1Ctnr = styled.section``;
 
-export const Swup = styled.div``;
+export const Swup = styled.div`
+  background-image: ${media() !== "desktop" && `url(${BgImg})`};
+  background-size: cover;
+  background-position: 50% 50%;
+`;
 
 export const CursorWrapper = styled.div`
   position: relative;

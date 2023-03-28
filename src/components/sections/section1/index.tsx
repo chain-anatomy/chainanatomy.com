@@ -11,6 +11,8 @@ import TouchBtn from "components/common/touchBtn";
 import MediaBr from "components/common/mobileBr";
 import { TitActive, TitBasic } from "components/common/sectionTit/style";
 
+import { media } from "utils";
+
 interface Props {
   handleClickTouchBtn: VoidFunction;
 }
@@ -25,7 +27,7 @@ const Section1 = forwardRef<HTMLElement, Props>(
     };
 
     useEffect(() => {
-      cursorsEmitter();
+      media() === "desktop" && cursorsEmitter();
     }, []);
 
     return (
