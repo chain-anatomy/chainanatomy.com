@@ -70,6 +70,7 @@ export const CustomSectionTit = styled(SectionTit)<AnimationTitProps>`
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-top: 170px;
 
   ${MEDIA.tablet} {
     max-width: inherit;
@@ -87,7 +88,7 @@ export const SubTit = styled(AnimationTit)`
   color: ${COLORS.grayscale02};
   font-size: 32px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
 
   ${MEDIA.tablet} {
     font-size: 24px;
@@ -103,7 +104,7 @@ export const Mission = styled(AnimationTit)`
   font-size: 20px;
   color: ${COLORS.grayscale03};
   text-align: center;
-  margin-top: 16px;
+  margin-top: 30px;
 
   ${MEDIA.tablet} {
     font-size: 16px;
@@ -116,7 +117,7 @@ export const Mission = styled(AnimationTit)`
 `;
 
 export const TouchBtnCtnr = styled.div`
-  margin-top: 100px;
+  margin-top: 150px;
 
   ${MEDIA.mobile} {
     margin-top: 50px;
