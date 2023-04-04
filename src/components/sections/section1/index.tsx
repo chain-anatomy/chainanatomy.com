@@ -88,9 +88,7 @@ const Section1 = forwardRef<HTMLElement, Props>(
                 <TitBasic>0</TitBasic>
               </S.CustomSectionTit>
               <S.SubTit>
-                Leading Blockchain
-              
-                Technology Company
+                Leading Blockchain Technology Company
               </S.SubTit>
               <S.Mission>
                 Our Mission Is To Connect Ideas To Web 3.0.
