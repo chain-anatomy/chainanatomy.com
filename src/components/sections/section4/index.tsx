@@ -78,8 +78,8 @@ const Section4 = forwardRef<HTMLElement>((props, ref) => {
         <S.ContentsCtnr>
           <Contents
             index="04"
-            tit="After Service"
-            desc={["Strategic Consultiing", "according to project stage."]}
+            tit="Follow-up Service"
+            desc={["Strategic Consulting", "according to project stage."]}
           />
           <S.AnimateIcon>
             <ServiceIcon />
