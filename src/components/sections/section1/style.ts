@@ -79,6 +79,7 @@ export const CustomSectionTit = styled(SectionTit)<AnimationTitProps>`
   ${MEDIA.mobile} {
     font-size: 40px;
     text-align: start;
+    margin-top: 0px;
   }
 `;
 
