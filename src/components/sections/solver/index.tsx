@@ -184,7 +184,7 @@ const Section6 = forwardRef<HTMLElement>((props, ref) => {
           Blockchain specialized programming, dAPP Development, Project consulting and Management.
           <MediaBr/>
           <MediaBr/>
-          A team that can support everything you need to succeed in the Web3.0 market
+          A team that can support everything you need to succeed in the Web3.0 market.
         </S.Desc>
         <S.Experts>
           {memberInfo.map(({ position, name, careers, works }, index) => (
