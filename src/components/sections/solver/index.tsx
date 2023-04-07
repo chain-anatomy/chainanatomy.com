@@ -79,7 +79,7 @@ const memberInfo = [
     careers: [
       "Incheon Science High School",
       "KAIST. Computer Science",
-      "NHN NEXT. Game Server Programming",
+      "Former) NHN NEXT. Game Server Programming",
       "Former) FunAt. Softeware Engineer",
       "Former) Randebu. Softeware Engineer, co-founder",
       "Former) Ruby Groupe. System Engineer",
@@ -179,14 +179,12 @@ const Section6 = forwardRef<HTMLElement>((props, ref) => {
           <TitActive>S</TitActive>
         </S.CustomSectionTit>
         <S.Desc>
-          Chain Anatomy brings together Korea's top class Blockchain experts
-          <MediaBr media="desktop" />
-          and financial experts. Blockchain specialized programming, dAPP
-          development,
-          <MediaBr media="desktop" />
-          Project consulting and Management.
-          <MediaBr media="desktop" />A team that can support everything you need
-          to succeed in the Web3.0 market
+          Chain Anatomy brings together Korea's top class blockchain experts and financial experts.
+          <MediaBr/>
+          Blockchain specialized programming, dAPP Development, Project consulting and Management.
+          <MediaBr/>
+          <MediaBr/>
+          A team that can support everything you need to succeed in the Web3.0 market
         </S.Desc>
         <S.Experts>
           {memberInfo.map(({ position, name, careers, works }, index) => (
