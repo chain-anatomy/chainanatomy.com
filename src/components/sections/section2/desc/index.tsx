@@ -9,21 +9,21 @@ const Desc = () => {
     <S.Desc>
       <S.LeftDesc>
         Provides liquidity management solutions for project growth.&nbsp;
-        <MediaBr/>
-        <MediaBr/>
+        <br />
+        <br />
         Focus on project operations and reduce potential risks.&nbsp;
-        <MediaBr/>
+        <br />
 
       </S.LeftDesc>
       <S.RightDesc>
         Increase Asset Efficiency With Dynamic Fund Placement.&nbsp;
-        <MediaBr/>
-        <MediaBr/>
+        <br />
+        <br />
         Market Vitalization By Increasing Trading Convenience.&nbsp;
-        <MediaBr/>
-        <MediaBr/>
+        <br />
+        <br />
         Blockchain activity Management Based On On-chain data.&nbsp;
-        <MediaBr/>
+        <br />
       </S.RightDesc>
     </S.Desc>
   );

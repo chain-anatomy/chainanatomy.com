@@ -180,10 +180,10 @@ const Section6 = forwardRef<HTMLElement>((props, ref) => {
         </S.CustomSectionTit>
         <S.Desc>
           Chain Anatomy brings together Korea's top class blockchain experts and financial experts.
-          <MediaBr media="desktop" />
+          <br />
           Blockchain specialized programming, dAPP Development, Project consulting and Management.
-          <MediaBr media="desktop" />
-          <MediaBr media="desktop" />
+          <br />
+          <br />
           A team that can support everything you need to succeed in the Web3.0 market.
         </S.Desc>
         <S.Experts>
