@@ -40,7 +40,7 @@ const Section4 = forwardRef<HTMLElement>((props, ref) => {
             tit="Consulting"
             desc={[
               "Strategic Consulting for WEB3.0 Project.",
-              "<Token Allocation, Ecosystem building, Technical Advisory>",
+              "<Token Allocation, Ecosystem Building, Technical Advisory>",
             ]}
           />
           <S.AnimateIcon>
@@ -53,7 +53,7 @@ const Section4 = forwardRef<HTMLElement>((props, ref) => {
             tit="Customzed Solution"
             desc={[
               "Development and On-boarding of",
-              "Liquidity supply tools based",
+              "Project and Solution",
               "on consulting.",
             ]}
           />
@@ -64,11 +64,10 @@ const Section4 = forwardRef<HTMLElement>((props, ref) => {
         <S.ContentsCtnr>
           <Contents
             index="03"
-            tit="Market Growth Monitoring"
+            tit="Project Growth Leading"
             desc={[
-              "Liquidity supply status monitoring,",
-              "Market impact alarm provision",
-              "& real-time response.",
+              "Facilitating Project Growth through,",
+              "Venture Capital Engagement and Partnership Building."
             ]}
           />
           <S.AnimateIcon>
