@@ -47,7 +47,7 @@ const Enhance = () => {
             <TitActive>t</TitActive>
             <TitActive>s</TitActive>
           </S.CustomSectionTit>
-          <S.SubTit>Market Growth Solutions Based on Fund Efficiency</S.SubTit>
+          <S.SubTit>Project Growth Solutions Based On Market Trends</S.SubTit>
           <S.EnhanceUl>
             <EnhanceLi
               tit={
