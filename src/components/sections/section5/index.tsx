@@ -56,7 +56,7 @@ const Section5 = () => {
               tit="Request"
               desc={[
                 "Strategic Consulting",
-                "for Dex listing and Pool Formation",
+                "for WEB3.0 Project Building",
               ]}
             />
           </S.ContentsLi>
