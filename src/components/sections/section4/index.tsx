@@ -66,7 +66,7 @@ const Section4 = forwardRef<HTMLElement>((props, ref) => {
             tit="Project Growth Leading"
             desc={[
               "Facilitating Project Growth through,",
-              "Venture Capital Engagement and Partnership Building."
+              "VC Engagement and Partnership Building."
             ]}
           />
           <S.AnimateIcon>
