@@ -21,7 +21,7 @@ const Footer: React.FC<HasNavProps> = ({ navList }) => {
             <S.Address>
               Management Office
               <br />
-              10F, Yeonmujang-ro 7gil 10, Seongdong-gu
+              10F, Yeonmujang-ro 7gil 11, Seongdong-gu
               <br />
               Seoul, Republic of Korea
             </S.Address>
