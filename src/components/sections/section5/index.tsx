@@ -64,7 +64,7 @@ const Section5 = () => {
             <S.CustomContents
               index="02"
               tit="Meeting"
-              desc={["Identifying the needs of the clients"]}
+              desc={["Identifying Client Needs and Project Condition"]}
             />
           </S.ContentsLi>
           <S.ContentsLi startLi={startAnimation3}>
