@@ -53,8 +53,7 @@ const Section4 = forwardRef<HTMLElement>((props, ref) => {
             tit="Customzed Solution"
             desc={[
               "Development and On-boarding of",
-              "Project and Solution",
-              "on consulting.",
+              "Project Solution based on consulting."
             ]}
           />
           <S.AnimateIcon>
