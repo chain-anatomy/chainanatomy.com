@@ -8,10 +8,10 @@ const Desc = () => {
   return (
     <S.Desc>
       <S.LeftDesc>
-        Provides liquidity management solutions for project growth.&nbsp;
+        Provides Strategic Solution For Project growth.&nbsp;
         <br />
         <br />
-        Focus on project operations and reduce potential risks.&nbsp;
+        Focus On Project Operations And Reduce Potential Risks.&nbsp;
         <br />
 
       </S.LeftDesc>
@@ -19,10 +19,10 @@ const Desc = () => {
         Increase Asset Efficiency With Dynamic Fund Placement.&nbsp;
         <br />
         <br />
-        Market Vitalization By Increasing Trading Convenience.&nbsp;
+        Market Activation Through Consulting That Follows Trends.&nbsp;
         <br />
         <br />
-        Blockchain activity Management Based On On-chain data.&nbsp;
+        Project Growth through VC Partnership Building.&nbsp;
         <br />
       </S.RightDesc>
     </S.Desc>
