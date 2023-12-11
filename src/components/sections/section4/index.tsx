@@ -50,7 +50,7 @@ const Section4 = forwardRef<HTMLElement>((props, ref) => {
         <S.ContentsCtnr>
           <Contents
             index="02"
-            tit="Customzed Solution"
+            tit="Customized Solution"
             desc={[
               "Development and On-boarding of",
               "Project Solution based on consulting."
