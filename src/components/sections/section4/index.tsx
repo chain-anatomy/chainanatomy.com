@@ -40,7 +40,7 @@ const Section4 = forwardRef<HTMLElement>((props, ref) => {
             tit="Consulting"
             desc={[
               "Strategic Consulting for WEB3.0 Project.",
-              "<Token Allocation, Ecosystem Building, Technical Advisory>",
+              ":Token Allocation, Ecosystem Building, Technical Advisory",
             ]}
           />
           <S.AnimateIcon>
