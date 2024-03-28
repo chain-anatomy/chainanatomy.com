@@ -42,7 +42,7 @@ const memberInfo = [
     ],
   },
   {
-    position: "Tech Lead",
+    position: "CTO",
     name: "Namhoon Kim",
     careers: [
       "Mechanical Engineering from Konkuk University - NHN NEXT",
