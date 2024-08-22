@@ -127,18 +127,10 @@ const memberInfo = [
     ],
   },
   {
-    position: 'Software Engineer',
-    name: 'ByeongHun Kim',
-    careers: [
-      'Jeonbuk National University',
-      'Annoymous Team, BNBChain Hackathon Track3 : Lifestyle in Web3 - 3rd Place',
-      'Contract Team, 3rd Term of Korea University Blockchain Society',
-    ],
-    works: [
-      'Web Backend Development (Nodejs/TypeScript)',
-      'Blockchain Node Operating (ethereum/klaytn/hyperledger)',
-      'Smart Contract (solidity)',
-    ],
+    position: 'Software Engineer, Data Engineer',
+    name: 'Youn Yi',
+    careers: ['Electrical and Computer Engineering, Seoul National University'],
+    works: ['Data Engineering (ML/DL)', 'Backend development'],
   },
   {
     position: 'Software Engineer',
@@ -151,6 +143,20 @@ const memberInfo = [
       'Smart Contract Contract (Solidity)',
       'Web Backend Development (Nodejs/TypeScript)',
       'Web Frontend Development (React, Next.js/TypeScript)',
+    ],
+  },
+  {
+    position: 'Software Engineer',
+    name: 'ByeongHun Kim',
+    careers: [
+      'Jeonbuk National University',
+      'Annoymous Team, BNBChain Hackathon Track3 : Lifestyle in Web3 - 3rd Place',
+      'Contract Team, 3rd Term of Korea University Blockchain Society',
+    ],
+    works: [
+      'Web Backend Development (Nodejs/TypeScript)',
+      'Blockchain Node Operating (ethereum/klaytn/hyperledger)',
+      'Smart Contract (solidity)',
     ],
   },
 ];
