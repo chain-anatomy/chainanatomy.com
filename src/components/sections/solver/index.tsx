@@ -25,7 +25,7 @@ const memberInfo = [
     ],
   },
   {
-    position: 'Strategy Lead',
+    position: 'CSO',
     name: 'Yousang Jo',
     careers: [
       'Gangwon Science High School',
